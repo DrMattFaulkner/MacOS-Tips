@@ -1,6 +1,11 @@
 # MacOS-Tips
 
 Some useful tips I've discovered whilst using MacOS
+
+## Change Hostname
+
+sudo scutil --set HostName [hostname]
+
 ## DNS Resolution
 
 ### Problem
