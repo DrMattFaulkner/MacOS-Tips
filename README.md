@@ -8,9 +8,11 @@ Can dig a host, but can NOT ping / ssh etc.
 
 ### Solution
 
+```shell
 sudo launchctl unload /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
 sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist AlwaysAppendSearchDomains -bool YES
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+```
 
 ### Long story:
 
