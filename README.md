@@ -19,6 +19,8 @@ sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist AlwaysApp
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
 ```
 
+It *shouldn't* require a reboot, but mine did :/
+
 ### Long story:
 
 http://apple.stackexchange.com/questions/24018/dns-lookups-fail-with-e-g-ping-but-work-with-host
